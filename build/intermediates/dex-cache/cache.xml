@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\com.android.support-design-22.2.1_24918c2b7167f81461c2163dfa1bbb0762a45919.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\exploded-aar\Android Player\google-play-services_lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="510b0e8e7b068de1b2780652876830f1ef11a3d3">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\Android Player-google-play-services_lib-unspecified_96bd38743778e56c9c9ef4c1688f0040373f42fc.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_40a91b6cac9002964a7ae30fc690040d0bb98bd8.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.1_e6c0cc807e875e6326d515b591a3fccbe50cfdf0.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.1_d1ea8b25fc72aae824781d36f17ed458f96121b2.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\exploded-aar\Android Player\DBPullToRefresh\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5bc5363303025e5699fbf5ebe971240dd26359e2">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\Android Player-DBPullToRefresh-unspecified_0de24cce40cb3a22921fa150a2364beceebac1d6.jar" />
+    </item>
+    <item
+        jar="E:\Users\taras.fihurnyak\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\support-annotations-22.2.1_94a637ed498f081808069e2848870f0b5417da9d.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\internal_impl-22.2.1_a1a737626398c974613a959d68a2b0f85d45d300.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\exploded-aar\Android Player\google-play-services_lib\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b5fc8b41d8c2341f2b86948b2f441be9096e2ae4">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\google-play-services_7eef5373a809e66be3b97861c34de7441151d6ae.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9b6a9a9078af571732159b904ad423b03b7cc786">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\android-support-v4_250ffea6a0af2c2384d36529a584b13e01a687bc.jar" />
+    </item>
+    <item
+        jar="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\libs\ypylibs.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a810862bb1657c7f890e24f12268ecd210ad62dc">
+        <dex dex="E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\pre-dexed\debug\ypylibs_71ecb213b9d58d8c917e68e5b49653b9d849cc68.jar" />
+    </item>
+
+</items>
