@@ -20,5 +20,8 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
     <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Wenn das Problem weiterhin besteht, kontaktieren Sie bitte den Entwickler."</string>
+    <string name="pull_to_refresh_pull_label">Ziehen zum Aktualisieren…</string>
+    <string name="pull_to_refresh_refreshing_label">Laden…</string>
+    <string name="pull_to_refresh_release_label">Loslassen zum Aktualisieren…</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

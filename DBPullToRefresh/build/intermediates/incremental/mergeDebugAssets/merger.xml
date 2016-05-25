@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\AndoidProjects\Android Player\DBPullToRefresh\assets"/></dataSet><dataSet config="debug"><source path="E:\AndoidProjects\Android Player\DBPullToRefresh\build-types\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\AndoidProjects\Android Player - studio\DBPullToRefresh\assets"/></dataSet><dataSet config="debug"><source path="E:\AndoidProjects\Android Player - studio\DBPullToRefresh\build-types\debug\assets"/></dataSet></merger>

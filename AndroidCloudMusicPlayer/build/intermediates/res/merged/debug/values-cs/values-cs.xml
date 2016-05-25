@@ -20,5 +20,8 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Sdílet pomocí %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sbalit"</string>
     <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"Aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> má potíže se službami Google Play. Pokud problém přetrvává, obraťte se na vývojáře s žádostí o pomoc."</string>
+    <string name="pull_to_refresh_pull_label">Tažením aktualizujete…</string>
+    <string name="pull_to_refresh_refreshing_label">Načítání…</string>
+    <string name="pull_to_refresh_release_label">Uvolněním aktualizujete…</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

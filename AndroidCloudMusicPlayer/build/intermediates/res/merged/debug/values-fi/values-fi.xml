@@ -20,5 +20,11 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Jakaminen: %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Kutista"</string>
     <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"Sovelluksella <ns1:g id="APP_NAME">%1$s</ns1:g> on ongelmia Google Play Palveluiden kanssa. Jos ongelma ei poistu, ota yhteyttä sovelluksen kehittäjään."</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">Päivitä vetämällä ylös…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Päivitä vetämällä alas…</string>
+    <string name="pull_to_refresh_refreshing_label">Päivitetään…</string>
+    <string name="pull_to_refresh_release_label">Päivitä vapauttamalla…</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

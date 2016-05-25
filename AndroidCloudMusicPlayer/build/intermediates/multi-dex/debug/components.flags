@@ -1,5 +1,5 @@
--injars 'E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer\build\intermediates\multi-dex\debug\componentClasses.jar'
 
 -libraryjars 'E:\Users\taras.fihurnyak\AppData\Local\Android\sdk\build-tools\23.0.3\lib\shrinkedAndroid.jar'
 
@@ -9,7 +9,7 @@
 -dontusemixedcaseclassnames
 -dontpreverify
 -dontwarn
--printconfiguration 'E:\AndoidProjects\Android Player\AndroidCloudMusicPlayer\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class com.ypyproductions.cloudplayer.SplashActivity {

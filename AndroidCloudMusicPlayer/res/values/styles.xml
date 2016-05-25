@@ -19,6 +19,8 @@
 
 
     <style name="AppThemeLight" parent="Theme.AppCompat.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <item name="android:actionBarStyle">@style/MyActionBar</item>
         <item name="colorPrimary">@color/blue_primary</item>
     </style>

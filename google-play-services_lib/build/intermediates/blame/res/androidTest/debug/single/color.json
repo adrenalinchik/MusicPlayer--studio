@@ -1,18 +1,18 @@
 [
     {
-        "merged": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_dark.xml",
-        "source": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\common_signin_btn_text_dark.xml"
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\common_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\wallet_secondary_text_holo_dark.xml",
-        "source": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\wallet_secondary_text_holo_dark.xml"
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\common_signin_btn_text_dark.xml"
     },
     {
-        "merged": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_signin_btn_text_light.xml",
-        "source": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\common_signin_btn_text_light.xml"
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\wallet_secondary_text_holo_dark.xml"
     },
     {
-        "merged": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\wallet_primary_text_holo_light.xml",
-        "source": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\wallet_primary_text_holo_light.xml"
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\color\\wallet_primary_text_holo_light.xml"
     }
 ]

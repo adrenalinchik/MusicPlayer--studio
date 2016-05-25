@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-am\\values-am.xml",
+        "outputFile": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-am\\values-am.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 253
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 396
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 506
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 631
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 778
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 901
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 1064
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 1190
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1356
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1523
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1646
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1801
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1921
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 2073
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 2228
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 2349
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 2518
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 2682
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2814
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2949
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 3144
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 3268
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 3373
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 3520
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -467,7 +467,7 @@
                     "endOffset": 3645
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -486,7 +486,7 @@
                     "endOffset": 3734
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -505,7 +505,7 @@
                     "endOffset": 3821
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -524,7 +524,7 @@
                     "endOffset": 3922
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\google-play-services_lib\\build\\intermediates\\bundles\\debug\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,

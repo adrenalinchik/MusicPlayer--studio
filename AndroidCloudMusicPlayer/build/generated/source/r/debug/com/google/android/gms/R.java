@@ -22,11 +22,11 @@ public final class R {
 	public static final class drawable {
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0d0032;
-		public static final int adjust_width = 0x7f0d0033;
-		public static final int none = 0x7f0d0010;
-		public static final int normal = 0x7f0d000c;
-		public static final int wrap_content = 0x7f0d003b;
+		public static final int adjust_height = 0x7f0d0035;
+		public static final int adjust_width = 0x7f0d0036;
+		public static final int none = 0x7f0d0013;
+		public static final int normal = 0x7f0d000f;
+		public static final int wrap_content = 0x7f0d0047;
 	}
 	public static final class integer {
 		public static final int google_play_services_version = 0x7f0a0005;
@@ -36,15 +36,15 @@ public final class R {
 	public static final class raw {
 	}
 	public static final class string {
-		public static final int accept = 0x7f060015;
-		public static final int auth_google_play_services_client_facebook_display_name = 0x7f060018;
-		public static final int auth_google_play_services_client_google_display_name = 0x7f060019;
+		public static final int accept = 0x7f06001b;
+		public static final int auth_google_play_services_client_facebook_display_name = 0x7f06001e;
+		public static final int auth_google_play_services_client_google_display_name = 0x7f06001f;
 		public static final int common_google_play_services_unknown_issue = 0x7f060013;
-		public static final int create_calendar_message = 0x7f06001c;
-		public static final int create_calendar_title = 0x7f06001d;
-		public static final int decline = 0x7f06001e;
-		public static final int store_picture_message = 0x7f06002d;
-		public static final int store_picture_title = 0x7f06002e;
+		public static final int create_calendar_message = 0x7f060023;
+		public static final int create_calendar_title = 0x7f060024;
+		public static final int decline = 0x7f060025;
+		public static final int store_picture_message = 0x7f060034;
+		public static final int store_picture_title = 0x7f060035;
 	}
 	public static final class style {
 		public static final int Theme_IAPTheme = 0x7f0900fc;

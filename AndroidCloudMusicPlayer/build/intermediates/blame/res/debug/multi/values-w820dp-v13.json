@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\AndoidProjects\\Android Player\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "E:\\AndoidProjects\\Android Player\\AndroidCloudMusicPlayer\\res\\values-w820dp\\dimens.xml",
+                    "file": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

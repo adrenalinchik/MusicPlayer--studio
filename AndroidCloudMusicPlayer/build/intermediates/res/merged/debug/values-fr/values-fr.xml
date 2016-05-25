@@ -20,5 +20,8 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
     <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> rencontre des problèmes avec les services Google Play. Si le problème persiste, veuillez contacter le développeur pour obtenir de l\'aide."</string>
+    <string name="pull_to_refresh_pull_label">Tirez pour rafraîchir…</string>
+    <string name="pull_to_refresh_refreshing_label">Chargement…</string>
+    <string name="pull_to_refresh_release_label">Relâcher pour rafraîchir…</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
 </resources>

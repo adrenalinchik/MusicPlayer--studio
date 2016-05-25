@@ -20,5 +20,8 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s와(과) 공유"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
     <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 문제가 계속되는 경우 개발자에게 지원을 요청하세요."</string>
+    <string name="pull_to_refresh_pull_label">당겨서 새로 고침…</string>
+    <string name="pull_to_refresh_refreshing_label">로드 중…</string>
+    <string name="pull_to_refresh_release_label">놓아서 새로 고침…</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

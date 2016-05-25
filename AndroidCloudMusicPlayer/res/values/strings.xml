@@ -26,6 +26,7 @@
     <string name="format_album">Album: %1$s</string>
     <string name="title_unknown">Unknown</string>
     <string name="title_settings">Setting</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5052787923872078/4302817543</string>
 
     <string-array name="list_share">
         <item>Send Email</item>
