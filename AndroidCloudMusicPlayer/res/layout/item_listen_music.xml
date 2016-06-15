@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -83,20 +84,18 @@
             android:background="@drawable/ic_play_arrow_grey600_36dp"
             android:minHeight="1sp"
             android:minWidth="1sp"
-            android:visibility="gone" />
+            />
 
         <Button
             android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/layout_content"
-            android:layout_marginLeft="35sp"
-            android:layout_marginTop="5sp"
-            android:layout_toRightOf="@+id/btn_play"
             android:background="@drawable/ic_skip_next_white_36dp"
             android:minHeight="1sp"
             android:minWidth="1sp"
-            android:visibility="gone" />
+            android:layout_alignTop="@+id/progressBar1"
+            android:layout_alignRight="@+id/tv_name_songs"
+            android:layout_alignEnd="@+id/tv_name_songs" />
 
         <Button
             android:id="@+id/btn_prev"
@@ -109,7 +108,7 @@
             android:background="@drawable/ic_skip_previous_white_36dp"
             android:minHeight="1sp"
             android:minWidth="1sp"
-            android:visibility="gone" />
+             />
 
         <ProgressBar
             android:id="@+id/progressBar1"

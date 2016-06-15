@@ -312,18 +312,6 @@ public class SlidingUpPanelLayout extends ViewGroup {
             0x7f0100b5, 0x7f0100b6, 0x7f0100b7, 0x7f0100b8,
             0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc
     };
-    public static final int SlidingUpPanelLayout_anchorPoint = 10;
-    public static final int SlidingUpPanelLayout_directOffset = 4;
-    public static final int SlidingUpPanelLayout_dragView = 7;
-    public static final int SlidingUpPanelLayout_dragViewClickable = 8;
-    public static final int SlidingUpPanelLayout_fadeColor = 5;
-    public static final int SlidingUpPanelLayout_flingVelocity = 6;
-    public static final int SlidingUpPanelLayout_initialState = 11;
-    public static final int SlidingUpPanelLayout_overlay = 9;
-    public static final int SlidingUpPanelLayout_panelHeight = 0;
-    public static final int SlidingUpPanelLayout_shadowHeight = 2;
-    public static final int SlidingUpPanelLayout_slidePanelOffset = 1;
-    public static final int SlidingUpPanelLayout_paralaxOffset = 3;
 
     public SlidingUpPanelLayout(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -351,25 +339,24 @@ public class SlidingUpPanelLayout extends ViewGroup {
             TypedArray ta = context.obtainStyledAttributes(attrs, SlidingUpPanelLayout);
 
             if (ta != null) {
-                mPanelHeight = ta.getDimensionPixelSize(SlidingUpPanelLayout_panelHeight, -1);
-                mSlidePanelOffset = ta.getDimensionPixelSize(SlidingUpPanelLayout_slidePanelOffset, DEFAULT_SLIDE_PANEL_OFFSET);
-                mShadowHeight = ta.getDimensionPixelSize(SlidingUpPanelLayout_shadowHeight, -1);
-                mParallaxOffset = ta.getDimensionPixelSize(SlidingUpPanelLayout_paralaxOffset, -1);
-                mDirectOffset = ta.getBoolean(SlidingUpPanelLayout_directOffset, DEFAULT_DIRECT_OFFSET_FLAG);
+                mPanelHeight = ta.getDimensionPixelSize(R.styleable.SlidingUpPanelLayout_panelHeight, -1);
+                mSlidePanelOffset = ta.getDimensionPixelSize(R.styleable.SlidingUpPanelLayout_slidePanelOffset, DEFAULT_SLIDE_PANEL_OFFSET);
+                mShadowHeight = ta.getDimensionPixelSize(R.styleable.SlidingUpPanelLayout_shadowHeight, -1);
+                mParallaxOffset = ta.getDimensionPixelSize(R.styleable.SlidingUpPanelLayout_paralaxOffset, -1);
+                mDirectOffset = ta.getBoolean(R.styleable.SlidingUpPanelLayout_directOffset, DEFAULT_DIRECT_OFFSET_FLAG);
 
-                mMinFlingVelocity = ta.getInt(SlidingUpPanelLayout_flingVelocity, DEFAULT_MIN_FLING_VELOCITY);
-                mCoveredFadeColor = ta.getColor(SlidingUpPanelLayout_fadeColor, DEFAULT_FADE_COLOR);
+                mMinFlingVelocity = ta.getInt(R.styleable.SlidingUpPanelLayout_flingVelocity, DEFAULT_MIN_FLING_VELOCITY);
+                mCoveredFadeColor = ta.getColor(R.styleable.SlidingUpPanelLayout_fadeColor, DEFAULT_FADE_COLOR);
 
-                mDragViewResId = ta.getResourceId(SlidingUpPanelLayout_dragView, -1);
-                mDragViewClickable = ta.getBoolean(SlidingUpPanelLayout_dragViewClickable, DEFAULT_DRAG_VIEW_CLICKABLE);
+                mDragViewResId = ta.getResourceId(R.styleable.SlidingUpPanelLayout_dragView, -1);
+                mDragViewClickable = ta.getBoolean(R.styleable.SlidingUpPanelLayout_dragViewClickable, DEFAULT_DRAG_VIEW_CLICKABLE);
 
-                mOverlayContent = ta.getBoolean(SlidingUpPanelLayout_overlay, DEFAULT_OVERLAY_FLAG);
+                mOverlayContent = ta.getBoolean(R.styleable.SlidingUpPanelLayout_overlay, DEFAULT_OVERLAY_FLAG);
 
-                mAnchorPoint = ta.getFloat(SlidingUpPanelLayout_anchorPoint, DEFAULT_ANCHOR_POINT);
+                mAnchorPoint = ta.getFloat(R.styleable.SlidingUpPanelLayout_anchorPoint, DEFAULT_ANCHOR_POINT);
 
-                mSlideState = SlideState.values()[ta.getInt(SlidingUpPanelLayout_initialState, DEFAULT_SLIDE_STATE.ordinal())];
+                mSlideState = SlideState.values()[ta.getInt(R.styleable.SlidingUpPanelLayout_initialState, DEFAULT_SLIDE_STATE.ordinal())];
             }
-
             ta.recycle();
         }
 

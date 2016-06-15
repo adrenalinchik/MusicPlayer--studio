@@ -22,22 +22,37 @@
             />
 
     </android.support.v7.widget.Toolbar>
-    <FrameLayout
-        android:id="@+id/fragment"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/toolbar">
-    </FrameLayout>
-    <include
-        android:id="@+id/layout_listen_music"
+
+    <com.ypyproductions.cloudplayer.slidinguppanel.SlidingUpPanelLayout
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/sliding_layout"
+        android:layout_below="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        layout="@layout/item_listen_music"
-        android:visibility="gone" />
+        android:gravity="bottom"
+        sothree:fadeColor="@android:color/transparent"
+        sothree:panelHeight="55dp"
+        sothree:shadowHeight="5dp"
+        sothree:overlay="true">
 
-    <include layout="@layout/sliding_up_controls_panel"/>
 
+        <FrameLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/toolbar">
 
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/quickcontrols_container">
+
+        </FrameLayout>
+
+    </com.ypyproductions.cloudplayer.slidinguppanel.SlidingUpPanelLayout>
 
 </RelativeLayout>

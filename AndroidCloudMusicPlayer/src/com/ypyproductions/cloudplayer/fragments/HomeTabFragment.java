@@ -567,21 +567,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
         }
 
     }
-    private void createProgressDialog() {
-        this.mProgressDialog = new ProgressDialog(getContext().getApplicationContext());
-        this.mProgressDialog.setIndeterminate(true);
-        this.mProgressDialog.setCancelable(false);
-        this.mProgressDialog.setOnKeyListener(new OnKeyListener() {
 
-            @Override
-            public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
-                if (keyCode == KeyEvent.KEYCODE_BACK) {
-                    return true;
-                }
-                return false;
-            }
-        });
-    }
     public void showProgressDialog() {
         if (mProgressDialog != null) {
             mProgressDialog.setMessage(this.getString(R.string.loading));
@@ -590,22 +576,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
             }
         }
     }
-    public void showProgressDialog(int messageId) {
-        if (mProgressDialog != null) {
-            mProgressDialog.setMessage(this.getString(messageId));
-            if(!mProgressDialog.isShowing()){
-                mProgressDialog.show();
-            }
-        }
-    }
-    public void showProgressDialog(String message) {
-        if (mProgressDialog != null) {
-            mProgressDialog.setMessage(message);
-            if(!mProgressDialog.isShowing()){
-                mProgressDialog.show();
-            }
-        }
-    }
+
     public static String getLinkStreamFromSoundClound(long id) {
         final String manualUrl = String.format(FORMAT_URL_SONG, String.valueOf(id), SOUNDCLOUND_CLIENT_ID);
         String dataServer = DownloadUtils.downloadString(manualUrl);
@@ -660,7 +631,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
     private void startGetData(final boolean isRefresh, final String keyword) {
         if (!ApplicationUtils.isOnline(getContext().getApplicationContext())) {
 
-           // mListView.onRefreshComplete();
+            mListView.onRefreshComplete();
 
             if (isRefresh) {
                 showToast(R.string.info_lose_internet);
@@ -699,7 +670,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
             public void onPostExcute() {
                 dimissProgressDialog();
 
-                //mListView.onRefreshComplete();
+                mListView.onRefreshComplete();
 
                 hiddenVirtualKeyBoard();
                 setUpInfo(mListNewTrackObjects);

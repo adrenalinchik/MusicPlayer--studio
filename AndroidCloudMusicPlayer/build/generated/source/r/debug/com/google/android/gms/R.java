@@ -8,12 +8,12 @@ package com.google.android.gms;
 
 public final class R {
 	public static final class attr {
-		public static final int adSize = 0x7f01001f;
-		public static final int adSizes = 0x7f010020;
-		public static final int adUnitId = 0x7f010021;
-		public static final int circleCrop = 0x7f010060;
-		public static final int imageAspectRatio = 0x7f01005f;
-		public static final int imageAspectRatioAdjust = 0x7f01005e;
+		public static final int adSize = 0x7f010047;
+		public static final int adSizes = 0x7f010048;
+		public static final int adUnitId = 0x7f010049;
+		public static final int circleCrop = 0x7f010088;
+		public static final int imageAspectRatio = 0x7f010087;
+		public static final int imageAspectRatioAdjust = 0x7f010086;
 	}
 	public static final class color {
 	}
@@ -22,11 +22,11 @@ public final class R {
 	public static final class drawable {
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0d0035;
-		public static final int adjust_width = 0x7f0d0036;
-		public static final int none = 0x7f0d0013;
-		public static final int normal = 0x7f0d000f;
-		public static final int wrap_content = 0x7f0d0047;
+		public static final int adjust_height = 0x7f0d0039;
+		public static final int adjust_width = 0x7f0d003a;
+		public static final int none = 0x7f0d0017;
+		public static final int normal = 0x7f0d0013;
+		public static final int wrap_content = 0x7f0d004b;
 	}
 	public static final class integer {
 		public static final int google_play_services_version = 0x7f0a0005;
@@ -50,11 +50,11 @@ public final class R {
 		public static final int Theme_IAPTheme = 0x7f0900fc;
 	}
 	public static final class styleable {
-		public static final int[] AdsAttrs = { 0x7f01001f, 0x7f010020, 0x7f010021 };
+		public static final int[] AdsAttrs = { 0x7f010047, 0x7f010048, 0x7f010049 };
 		public static final int AdsAttrs_adSize = 0;
 		public static final int AdsAttrs_adSizes = 1;
 		public static final int AdsAttrs_adUnitId = 2;
-		public static final int[] LoadingImageView = { 0x7f01005e, 0x7f01005f, 0x7f010060 };
+		public static final int[] LoadingImageView = { 0x7f010086, 0x7f010087, 0x7f010088 };
 		public static final int LoadingImageView_circleCrop = 2;
 		public static final int LoadingImageView_imageAspectRatio = 1;
 		public static final int LoadingImageView_imageAspectRatioAdjust = 0;

@@ -3,8 +3,10 @@ package com.ypyproductions.cloudplayer.fragments;
 import com.ypyproductions.cloudplayer.MainActivity;
 import com.ypyproductions.cloudplayer.R;
 import com.ypyproductions.cloudplayer.adapter.TabViewPagerAdapter;
+import com.ypyproductions.cloudplayer.slidinguppanel.SlidingUpPanelLayout;
 
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -19,8 +21,6 @@ public class MainFragment extends Fragment{
 	  	private Toolbar toolbar;
 	    private TabLayout tabLayout;
 	    private ViewPager viewPager;
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -39,7 +39,6 @@ public class MainFragment extends Fragment{
        // tabLayout.setTabTextColors(R.color.alpha_white,R.color.white);
         tabLayout.setupWithViewPager(viewPager);
 
-
         
         return rootView;
    }
@@ -54,7 +53,7 @@ public class MainFragment extends Fragment{
         adapter.addFragment(new PlaylistTabFragment(), "GENRES");
         viewPager.setAdapter(adapter);
     }
-        
-		
+
+
 }
 

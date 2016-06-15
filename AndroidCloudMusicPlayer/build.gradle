@@ -11,9 +11,8 @@ dependencies {
     compile 'com.android.support:percent:23.1.0'
     compile 'com.google.android.gms:play-services-ads:8.3.0'
     compile 'com.google.android.gms:play-services-ads:8.4.0'
-
-
 }
+
 
 android {
     compileSdkVersion 23
