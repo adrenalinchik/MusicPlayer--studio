@@ -8,7 +8,9 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -17,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.SearchView;
 import android.widget.TextView;
 
+import com.ypyproductions.SingletonTrackObjectArray;
 import com.ypyproductions.abtractclass.fragment.IDBFragmentConstants;
 import com.ypyproductions.cloudplayer.MainActivity;
 import com.ypyproductions.cloudplayer.R;
@@ -112,7 +115,7 @@ import com.ypyproductions.webservice.DownloadUtils;
 
 
 public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener, ICloudMusicPlayerConstants, IDBConstantURL, IDBFragmentConstants, ISoundCloundConstants {
-	
+
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private TextView mCatTextView;
     public static final String TAG = MainActivity.class.getSimpleName();
@@ -157,9 +160,12 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
     public Typeface mTypefaceLogo;
     private ProgressDialog mProgressDialog;
 
+    private QuickControlsFragment quickControlsFragment;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        quickControlsFragment = new QuickControlsFragment();
 
     }
 
@@ -210,6 +216,10 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
                 startGetData(true, SettingManager.getLastKeyword(getContext().getApplicationContext()));
             }
         });
+
+        FragmentManager fragmentManager1 = getActivity().getSupportFragmentManager();
+        fragmentManager1.beginTransaction()
+                .replace(R.id.quickcontrols_container, quickControlsFragment).commit();
 
         SettingManager.setFirstTime(getContext().getApplicationContext(), true);
         setUpPlayMusicLayout();
@@ -620,6 +630,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
 
                     int percent = (int) (100f * ((float) mPlayer.getCurrentPosition() / (float) mCurrentTrack.getDuration()));
                     mSeekbar.setProgress(percent);
+
                     if (current < mCurrentTrack.getDuration()) {
                         startUpdatePosition();
 
@@ -686,32 +697,40 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
             ApplicationUtils.hiddenVirtualKeyboard(getContext().getApplicationContext(), searchView);
         }
     }
+
+    //Set up music list view
     private void setUpInfo(ArrayList<TrackObject> mListNewTrackObjects) {
         mListView.setAdapter(null);
         if (mListTrackObjects != null) {
             mListTrackObjects.clear();
             mListTrackObjects = null;
         }
-        this.mListTrackObjects = mListNewTrackObjects;
+
+        quickControlsFragment.mListTrackObjects = mListNewTrackObjects;
+
+
         if (mListNewTrackObjects != null && mListNewTrackObjects.size() > 0) {
             this.mTvNoResult.setVisibility(View.GONE);
             this.mListView.setVisibility(View.VISIBLE);
             mAdapter = new TrackAdapter(getActivity(), mListNewTrackObjects, mTypefaceBold, mTypefaceLight, mImgTrackOptions, mAvatarOptions);
             mListView.setAdapter(mAdapter);
 
+            //Click on list item(track) listener
             mAdapter.setTrackAdapterListener(new ITrackAdapterListener() {
                 @Override
                 public void onDownload(TrackObject mTrackObject) {
                     showAlertDownload(mTrackObject);
                 }
-
+                //Click on track behavior
                 @Override
                 public void onListenDemo(TrackObject mTrackObject) {
                     if (!ApplicationUtils.isOnline(getContext().getApplicationContext())) {
                         showToast(R.string.info_server_error);
                         return;
                     }
-                    onListenMusicDemo(mTrackObject);
+
+                    quickControlsFragment.onMusicStop();
+                    quickControlsFragment.onListenMusicDemo(mTrackObject);
                 }
             });
         }

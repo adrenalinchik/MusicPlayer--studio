@@ -49,7 +49,7 @@ public class SlidingUpPanelLayout extends ViewGroup {
     /**
      * If no fade color is given by default it will fade to 80% gray.
      */
-    private static final int DEFAULT_FADE_COLOR = 0x99000000;
+    private static final int DEFAULT_FADE_COLOR = 0;
 
     /**
      * Whether we should hook up the drag view clickable state

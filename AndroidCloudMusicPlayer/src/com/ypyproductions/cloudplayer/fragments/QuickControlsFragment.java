@@ -26,6 +26,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -44,12 +45,14 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
+import com.ypyproductions.SingletonTrackObjectArray;
 import com.ypyproductions.abtractclass.fragment.IDBFragmentConstants;
 import com.ypyproductions.cloudplayer.MainActivity;
 import com.ypyproductions.cloudplayer.R;
 import com.ypyproductions.cloudplayer.constants.ICloudMusicPlayerConstants;
 import com.ypyproductions.cloudplayer.setting.PlayPauseButton;
 import com.ypyproductions.cloudplayer.setting.SettingManager;
+import com.ypyproductions.cloudplayer.setting.SquareImageView;
 import com.ypyproductions.soundclound.ISoundCloundConstants;
 import com.ypyproductions.soundclound.object.TrackObject;
 import com.ypyproductions.task.DBTask;
@@ -82,9 +85,8 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
     private View playPauseWrapper;
     private View playPauseWrapperPlayer;
     public static final String TAG = MainActivity.class.getSimpleName();
-    private ArrayList<TrackObject> mListTrackObjects;
+    public ArrayList<TrackObject> mListTrackObjects;
     private ProgressDialog mProgressDialog;
-
     private SeekBar mSeekbar;
     private TextView mTvCurrentTime;
     private TextView mTvDuration;
@@ -101,10 +103,17 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
     private Button mBtnPrev;
     private Button mBtnNext;
     private TextView mTvLink;
+
+    private SquareImageView mNowPlayingImage;
+    private ProgressBar mQuickProgressBar;
+    private TextView mQuickTitle;
+    private TextView mQuickArtist;
+
     public Typeface mTypefaceNormal;
     public Typeface mTypefaceLight;
     public Typeface mTypefaceBold;
     public Typeface mTypefaceLogo;
+
 
     private boolean duetoplaypause = false;
 
@@ -134,6 +143,11 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
 
         }
     };
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -177,10 +191,21 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
         mBtnPrev = (Button) rootView.findViewById(R.id.btn_prev);
         mBtnNext = (Button) rootView.findViewById(R.id.btn_next);
 
+        mNowPlayingImage = (SquareImageView) rootView.findViewById(R.id.album_art_nowplayingcard);
+        mQuickProgressBar = (ProgressBar) rootView.findViewById(R.id.song_progress_normal);
+        mQuickTitle = (TextView) rootView.findViewById(R.id.title);
+
+
         SettingManager.setFirstTime(getContext().getApplicationContext(), true);
         setUpPlayMusicLayout();
 
         return rootView;
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        initPlayerControls();
     }
 
     private void setUpPlayMusicLayout() {
@@ -236,6 +261,22 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
                 prevTrack();
             }
         });
+
+
+    }
+
+    private void initPlayerControls(){
+        if (mListTrackObjects != null && mListTrackObjects.size() > 0) {
+            TrackObject trackObject = mListTrackObjects.get(0);
+
+            mQuickProgressBar.setProgress(0);
+            mQuickTitle.setText(trackObject.getTitle());
+
+            mTvTitleSongs.setText(trackObject.getTitle());
+            mTvLink.setText(trackObject.getPermalinkUrl());
+            mTvCurrentTime.setText("00:00");
+            mSeekbar.setProgress(0);
+        }
     }
     private void playOrPause() {
         try {
@@ -279,11 +320,15 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
             }
         }
     }
-    private void onMusicStop() {
+    public void onMusicStop() {
         mHandler.removeCallbacksAndMessages(null);
         try {
             if (mPlayer != null) {
                 mPlayer.stop();
+                mPlayPause.setPlayed(false);
+                mPlayPausePlayer.setPlayed(false);
+                mPlayPause.startAnimation();
+                mPlayPausePlayer.startAnimation();
                 mPlayer.release();
                 mPlayer = null;
             }
@@ -293,15 +338,21 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
         }
     }
 
-    private void onListenMusicDemo(final TrackObject mTrackObject) {
+    public void onListenMusicDemo(final TrackObject mTrackObject) {
         mCurrentTrack = mTrackObject;
+
+      //  mNowPlayingImage.setImageDrawable(mTrackObject.getAvatarUrl().);
+        Log.d("ImageURL", mTrackObject.getAvatarUrl());
+
+        mQuickProgressBar.setProgress(0);
+        mQuickTitle.setText(mTrackObject.getTitle());
+        //mQuickArtist.setText(mTrackObject.get);
+
         mTvTitleSongs.setText(mTrackObject.getTitle());
         mTvLink.setText(mTrackObject.getPermalinkUrl());
         mTvCurrentTime.setText("00:00");
         mProgressBar.setVisibility(View.VISIBLE);
         mSeekbar.setProgress(0);
-
-        mTvLink.setVisibility(View.GONE);
 
         long duration = mTrackObject.getDuration() / 1000;
         String minute = String.valueOf((int) (duration / 60));
@@ -317,7 +368,6 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
             @Override
             public void onAction() {
                 onCreateAndPlayMedia(mTrackObject);
-
             }
         }, false);
 
@@ -409,6 +459,10 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
             public void onPrepared(MediaPlayer mp) {
                 mProgressBar.setVisibility(View.GONE);
 
+                mPlayPause.setPlayed(true);
+                mPlayPause.startAnimation();
+                mPlayPausePlayer.setPlayed(true);
+                mPlayPausePlayer.startAnimation();
 
                 mTvLink.setVisibility(View.VISIBLE);
 
@@ -489,6 +543,7 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
 
                     int percent = (int) (100f * ((float) mPlayer.getCurrentPosition() / (float) mCurrentTrack.getDuration()));
                     mSeekbar.setProgress(percent);
+                    mQuickProgressBar.setProgress(percent);
                     if (current < mCurrentTrack.getDuration()) {
                         startUpdatePosition();
 

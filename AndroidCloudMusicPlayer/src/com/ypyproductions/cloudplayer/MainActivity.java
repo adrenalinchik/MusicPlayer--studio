@@ -3,6 +3,7 @@ package com.ypyproductions.cloudplayer;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.ypyproductions.cloudplayer.fragments.MainFragment;
 import com.ypyproductions.cloudplayer.fragments.QuickControlsFragment;
+
 import com.ypyproductions.dialog.utils.AlertDialogUtils.IOnDialogListener;
 
 import android.content.DialogInterface.OnKeyListener;
