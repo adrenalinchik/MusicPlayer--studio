@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+        <attr format="boolean" name="border_overlay"/>
+    </declare-styleable>
+    <declare-styleable name="CircularImageViewStyle">
+        <attr format="reference" name="circularImageViewDefault"/>
+    </declare-styleable>
+    <declare-styleable name="CircularSeekBar">
+        <attr format="integer" name="progress"/>
+        <attr format="integer" name="max"/>
+        <attr format="boolean" name="move_outside_circle"/>
+        <attr format="boolean" name="maintain_equal_circle"/>
+        <attr format="boolean" name="use_custom_radii"/>
+        <attr format="boolean" name="lock_enabled"/>
+        <attr format="float" name="circle_x_radius"/>
+        <attr format="float" name="circle_y_radius"/>
+        <attr format="float" name="circle_stroke_width"/>
+        <attr format="float" name="pointer_radius"/>
+        <attr format="float" name="pointer_halo_width"/>
+        <attr format="float" name="pointer_halo_border_width"/>
+        <attr format="string" name="circle_color"/>
+        <attr format="string" name="circle_progress_color"/>
+        <attr format="string" name="pointer_color"/>
+        <attr format="string" name="pointer_halo_color"/>
+        <attr format="string" name="pointer_halo_color_ontouch"/>
+        <attr format="integer" name="pointer_alpha_ontouch"/>
+        <attr format="float" name="start_angle"/>
+        <attr format="float" name="end_angle"/>
+        <attr format="string" name="circle_fill"/>
+    </declare-styleable>
+    <declare-styleable name="MultiViewPager">
+        <!-- Child view inside a page to match the page size against. -->
+        <attr format="reference" name="matchChildWidth"/>
+        <!-- Maximum size. -->
+        <attr name="android:maxWidth"/>
+        <!-- Maximum size. -->
+        <attr name="android:maxHeight"/>
+    </declare-styleable>
+    <declare-styleable name="PlayTransition">
+        <attr format="color" name="colorCT"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr format="dimension" name="panelHeight"/>
+        <attr format="dimension" name="slidePanelOffset"/>
+        <attr format="dimension" name="shadowHeight"/>
+        <attr format="dimension" name="paralaxOffset"/>
+        <attr format="boolean" name="directOffset"/>
+        <attr format="color" name="fadeColor"/>
+        <attr format="integer" name="flingVelocity"/>
+        <attr format="reference" name="dragView"/>
+        <attr format="boolean" name="dragViewClickable"/>
+        <attr format="boolean" name="overlay"/>
+        <attr format="float" name="anchorPoint"/>
+        <attr format="enum" name="initialState">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+            <enum name="anchored" value="2"/>
+            <enum name="hidden" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TimelyView">
+        <attr format="color" name="text_color"/>
+    </declare-styleable>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="AppBaseTheme1" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/blue_primary</item>
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+    <style name="MyTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="Platform.AppCompat" parent="Platform.V14.AppCompat"/>
+    <style name="Platform.AppCompat.Light" parent="Platform.V14.AppCompat.Light"/>
+    <style name="Platform.V14.AppCompat" parent="Platform.V11.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="Platform.V11.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.StatusBar.EventContent.Info"/>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time"/>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+</resources>

@@ -18,12 +18,12 @@
         android:layout_centerVertical="true"
         android:visibility="gone" />
 
-    <!--<RelativeLayout
+    <RelativeLayout
         android:id="@+id/layout_ad"
         android:layout_width="match_parent"
         android:layout_height="50sp"
         android:layout_alignParentBottom="true"
         android:gravity="center_horizontal" >
-    </RelativeLayout>-->
+    </RelativeLayout>
 
 </RelativeLayout>

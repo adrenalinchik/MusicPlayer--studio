@@ -15,6 +15,7 @@
 package com.ypyproductions.cloudplayer.fragments;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
@@ -67,7 +68,11 @@ import com.ypyproductions.webservice.DownloadUtils;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class QuickControlsFragment extends Fragment implements ICloudMusicPlayerConstants, IDBConstantURL, IDBFragmentConstants, ISoundCloundConstants {
 
@@ -95,8 +100,8 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
     private Handler mHandler = new Handler(Looper.getMainLooper());
     private MediaPlayer mPlayer;
     private TrackObject mCurrentTrack;
-    private Button mBtnClose;
     private ProgressBar mProgressBar;
+    private ProgressBar mCardProgressBar;
     //private AdView adView;
     InterstitialAd mInterstitial;
     private DisplayImageOptions mAvatarOptions;
@@ -104,7 +109,7 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
     private Button mBtnNext;
     private TextView mTvLink;
 
-    private SquareImageView mNowPlayingImage;
+    private ImageView mNowPlayingImage;
     private ProgressBar mQuickProgressBar;
     private TextView mQuickTitle;
     private TextView mQuickArtist;
@@ -187,25 +192,19 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
         mTvTitleSongs = (TextView) rootView.findViewById(R.id.tv_name_songs);
         mTvTitleSongs.setTypeface(mTypefaceBold);
         mProgressBar = (ProgressBar) rootView.findViewById(R.id.progressBar1);
+        mCardProgressBar = (ProgressBar) rootView.findViewById(R.id.progressBar2);
 
         mBtnPrev = (Button) rootView.findViewById(R.id.btn_prev);
         mBtnNext = (Button) rootView.findViewById(R.id.btn_next);
 
-        mNowPlayingImage = (SquareImageView) rootView.findViewById(R.id.album_art_nowplayingcard);
+        mNowPlayingImage = (ImageView) rootView.findViewById(R.id.album_art_nowplayingcard);
         mQuickProgressBar = (ProgressBar) rootView.findViewById(R.id.song_progress_normal);
         mQuickTitle = (TextView) rootView.findViewById(R.id.title);
 
 
         SettingManager.setFirstTime(getContext().getApplicationContext(), true);
         setUpPlayMusicLayout();
-
         return rootView;
-    }
-
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        initPlayerControls();
     }
 
     private void setUpPlayMusicLayout() {
@@ -261,13 +260,13 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
                 prevTrack();
             }
         });
-
-
     }
 
-    private void initPlayerControls(){
+    public void initPlayerControls(ArrayList<TrackObject> mListTrackObjects) {
         if (mListTrackObjects != null && mListTrackObjects.size() > 0) {
-            TrackObject trackObject = mListTrackObjects.get(0);
+            final TrackObject trackObject = mListTrackObjects.get(0);
+
+            mCurrentTrack = trackObject;
 
             mQuickProgressBar.setProgress(0);
             mQuickTitle.setText(trackObject.getTitle());
@@ -276,8 +275,75 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
             mTvLink.setText(trackObject.getPermalinkUrl());
             mTvCurrentTime.setText("00:00");
             mSeekbar.setProgress(0);
+            new DownloadImageTask().execute(trackObject.getArtworkUrl());
+
+            startGetLinkStream(new IDBCallback() {
+                @Override
+                public void onAction() {
+                    onCreateMedia(trackObject);
+                }
+            }, false);
+
+
         }
     }
+
+    private void onCreateMedia(final TrackObject mTrackObject){
+        mPlayer = new MediaPlayer();
+        mPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                mProgressBar.setVisibility(View.GONE);
+                mCardProgressBar.setVisibility(View.GONE);
+
+                mTvLink.setVisibility(View.VISIBLE);
+
+                startUpdatePosition();
+                //requestNewInterstitial();
+
+            }
+        });
+        mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                onMusicStop();
+                nextTrack();
+
+            }
+        });
+        mPlayer.setOnErrorListener(new MediaPlayer.OnErrorListener() {
+
+            @Override
+            public boolean onError(MediaPlayer mp, int what, int extra) {
+                showToast(R.string.info_play_error);
+                onMusicStop();
+                mCurrentTrack.setLinkStream("");
+                return false;
+            }
+        });
+        String url = mTrackObject.getLinkStream();
+        try {
+            mPlayer.setDataSource(url);
+            mPlayer.prepareAsync();
+        }
+        catch (IllegalArgumentException e) {
+            e.printStackTrace();
+            onMusicStop();
+        }
+        catch (SecurityException e) {
+            e.printStackTrace();
+            onMusicStop();
+        }
+        catch (IllegalStateException e) {
+            e.printStackTrace();
+            onMusicStop();
+        }
+        catch (IOException e) {
+            onMusicStop();
+        }
+    }
+
     private void playOrPause() {
         try {
             if (mPlayer != null) {
@@ -295,7 +361,6 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
         }
 
     }
-
 
     private void nextTrack() {
         if (mListTrackObjects != null && mListTrackObjects.size() > 0 && mCurrentTrack != null) {
@@ -340,19 +405,16 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
 
     public void onListenMusicDemo(final TrackObject mTrackObject) {
         mCurrentTrack = mTrackObject;
-
-      //  mNowPlayingImage.setImageDrawable(mTrackObject.getAvatarUrl().);
-        Log.d("ImageURL", mTrackObject.getAvatarUrl());
-
         mQuickProgressBar.setProgress(0);
         mQuickTitle.setText(mTrackObject.getTitle());
-        //mQuickArtist.setText(mTrackObject.get);
 
         mTvTitleSongs.setText(mTrackObject.getTitle());
         mTvLink.setText(mTrackObject.getPermalinkUrl());
         mTvCurrentTime.setText("00:00");
         mProgressBar.setVisibility(View.VISIBLE);
+        mCardProgressBar.setVisibility(View.VISIBLE);
         mSeekbar.setProgress(0);
+        new DownloadImageTask().execute(mCurrentTrack.getArtworkUrl());
 
         long duration = mTrackObject.getDuration() / 1000;
         String minute = String.valueOf((int) (duration / 60));
@@ -372,6 +434,40 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
         }, false);
 
     }
+
+
+    private Drawable ImageOperations(String url) {
+        try {
+            InputStream is = (InputStream) new URL(url).getContent();
+            Drawable d = Drawable.createFromStream(is, null);
+            return d;
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+            return null;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    private class DownloadImageTask extends AsyncTask <String, Void, Drawable>{
+
+        @Override
+        protected Drawable doInBackground(String... params) {
+            return ImageOperations(params[0]);
+        }
+
+        @Override
+        protected void onPostExecute(Drawable result) {
+            mNowPlayingImage.setImageDrawable(result);
+        }
+
+        @Override
+        protected void onPreExecute() {
+        }
+
+    }
+
 
     private void startGetLinkStream(final IDBCallback mCallback, final boolean isShowProgress) {
         if (mCurrentTrack != null) {
@@ -452,12 +548,15 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
     }
 
     private void onCreateAndPlayMedia(final TrackObject mTrackObject) {
-        mPlayer = new MediaPlayer();
+        if(mPlayer==null){
+            mPlayer = new MediaPlayer();
+        }
         mPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
 
             @Override
             public void onPrepared(MediaPlayer mp) {
                 mProgressBar.setVisibility(View.GONE);
+                mCardProgressBar.setVisibility(View.GONE);
 
                 mPlayPause.setPlayed(true);
                 mPlayPause.startAnimation();
@@ -553,43 +652,7 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
         }, 1000);
     }
 
-    //to update the permanent now playing card at the bottom
-    public void updateNowplayingCard() {
-        //mTitle.setText(MusicPlayer.getTrackName());
-       // mArtist.setText(MusicPlayer.getArtistName());
-        if (!duetoplaypause) {
-           /* ImageLoader.getInstance().displayImage(TimberUtils.getAlbumArtUri(MusicPlayer.getCurrentAlbumId()).toString(), mAlbumArt,
-                    new DisplayImageOptions.Builder().cacheInMemory(true)
-                            .showImageOnFail(R.drawable.ic_empty_music2)
-                            .resetViewBeforeLoading(true)
-                            .build(), new ImageLoadingListener() {
-                        @Override
-                        public void onLoadingStarted(String imageUri, View view) {
 
-                        }
-
-                        @Override
-                        public void onLoadingFailed(String imageUri, View view, FailReason failReason) {
-                            Bitmap failedBitmap = ImageLoader.getInstance().loadImageSync("drawable://" + R.drawable.ic_empty_music2);
-                            if (getActivity() != null)
-                                new setBlurredAlbumArt().execute(failedBitmap);
-                        }
-
-                        @Override
-                        public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
-                            if (getActivity() != null)
-                                new setBlurredAlbumArt().execute(loadedImage);
-
-                        }
-
-                        @Override
-                        public void onLoadingCancelled(String imageUri, View view) {
-
-                        }
-                    });*/
-        }
-        duetoplaypause = false;
-    }
 
     @Override
     public void onStart() {
@@ -609,45 +672,5 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
         topContainer = rootView.findViewById(R.id.topContainer);
 
     }
-
-    public void updateState() {
-      /*  if (MusicPlayer.isPlaying()) {
-            if (!mPlayPause.isPlayed()) {
-                mPlayPause.setPlayed(true);
-                mPlayPause.startAnimation();
-            }
-        } else {
-            if (mPlayPause.isPlayed()) {
-                mPlayPause.setPlayed(false);
-                mPlayPause.startAnimation();
-            }
-        }*/
-    }
-
-    public void restartLoader() {
-
-    }
-
-    public void onPlaylistChanged() {
-
-    }
-
-
-    private class setBlurredAlbumArt extends AsyncTask<Bitmap, Void, Drawable> {
-
-        @Override
-        protected Drawable doInBackground(Bitmap... loadedImage) {
-            Drawable drawable = null;
-            try {
-               // drawable = ImageUtils.createBlurredImageFromBitmap(loadedImage[0], getActivity(), 6);
-            } catch (NullPointerException e) {
-                e.printStackTrace();
-            }
-            return drawable;
-        }
-
-
-    }
-
 
 }

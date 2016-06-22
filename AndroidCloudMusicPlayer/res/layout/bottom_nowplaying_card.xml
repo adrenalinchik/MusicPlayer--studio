@@ -3,14 +3,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/topContainer"
     android:layout_width="wrap_content"
-    android:layout_height="65dp"
+    android:layout_height="70dp"
     android:layout_gravity="top"
     android:background="@color/blue_primary_dark">
 
-    <com.ypyproductions.cloudplayer.setting.SquareImageView
+    <ImageView
         android:id="@+id/album_art_nowplayingcard"
         android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_height="70dp"
         android:layout_alignParentLeft="true"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_empty_music2" />
@@ -18,26 +18,18 @@
     <LinearLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
         android:layout_toRightOf="@id/album_art_nowplayingcard"
         android:orientation="vertical">
-
-        <ProgressBar
-            android:id="@+id/song_progress_normal"
-            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top"
-            android:maxHeight="5dp"
-            android:progress="30"
-            android:progressDrawable="@drawable/progress_drawable_black"/>
 
         <TextView
             android:id="@+id/title"
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="42dp"
             android:ellipsize="end"
@@ -45,7 +37,14 @@
             android:text="Demons"
             android:textSize="15sp" />
 
-
+        <ProgressBar
+            android:id="@+id/song_progress_normal"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="5dp"
+            android:progress="30"
+            android:progressDrawable="@drawable/progress_drawable_black" />
     </LinearLayout>
 
     <FrameLayout
@@ -66,5 +65,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
     </FrameLayout>
 </RelativeLayout>

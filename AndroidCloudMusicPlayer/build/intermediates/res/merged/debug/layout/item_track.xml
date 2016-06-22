@@ -59,7 +59,6 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20sp"
-                android:layout_toLeftOf="@+id/btn_download"
                 android:src="@drawable/icon_soundcloud" />
 
            <!-- <Button

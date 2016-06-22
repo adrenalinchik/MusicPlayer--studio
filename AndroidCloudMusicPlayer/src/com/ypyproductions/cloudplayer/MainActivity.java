@@ -143,6 +143,7 @@ public class MainActivity extends AppCompatActivity implements ICloudMusicPlayer
         mTypefaceLogo=Typeface.createFromAsset(getAssets(), "fonts/Biko_Regular.otf");
 
         panelLayout = (SlidingUpPanelLayout) findViewById(R.id.sliding_layout);
+       // panelLayout.setPanelHeight(120);
         setPanelSlideListeners();
         new initQuickControls().execute("");
         

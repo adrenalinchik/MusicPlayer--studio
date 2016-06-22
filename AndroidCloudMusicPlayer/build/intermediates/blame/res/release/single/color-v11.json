@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

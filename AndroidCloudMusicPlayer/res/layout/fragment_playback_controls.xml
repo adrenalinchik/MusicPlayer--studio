@@ -126,6 +126,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:paddingBottom="10sp"
+                        android:layout_gravity="center"
+                        android:visibility="gone"/>
                 </FrameLayout>
 
                 <Button
@@ -137,9 +146,7 @@
                     android:layout_toRightOf="@+id/btn_play"
                     android:background="@drawable/ic_skip_next_white_36dp"
                     android:minHeight="1sp"
-                    android:minWidth="1sp"
-
-                    />
+                    android:minWidth="1sp"/>
 
                 <Button
                     android:id="@+id/btn_prev"
@@ -150,18 +157,7 @@
                     android:layout_toLeftOf="@+id/btn_play"
                     android:background="@drawable/ic_skip_previous_white_36dp"
                     android:minHeight="1sp"
-                    android:minWidth="1sp"
-                    />
-
-                <ProgressBar
-                    android:id="@+id/progressBar1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5sp"
-                    android:paddingBottom="10sp"
-                    android:layout_centerHorizontal="true"
-                    android:visibility="gone"/>
-
+                    android:minWidth="1sp"/>
 
             </RelativeLayout>
 
@@ -184,8 +180,7 @@
     </FrameLayout>
 
 
-<include layout="@layout/bottom_nowplaying_card"
-    />
+<include layout="@layout/bottom_nowplaying_card"/>
 
 
 </FrameLayout>

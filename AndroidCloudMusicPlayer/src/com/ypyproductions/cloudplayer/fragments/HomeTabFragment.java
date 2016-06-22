@@ -684,6 +684,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
                 mListView.onRefreshComplete();
 
                 hiddenVirtualKeyBoard();
+                quickControlsFragment.mListTrackObjects=mListNewTrackObjects;
                 setUpInfo(mListNewTrackObjects);
             }
 
@@ -706,14 +707,13 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
             mListTrackObjects = null;
         }
 
-        quickControlsFragment.mListTrackObjects = mListNewTrackObjects;
-
-
         if (mListNewTrackObjects != null && mListNewTrackObjects.size() > 0) {
             this.mTvNoResult.setVisibility(View.GONE);
             this.mListView.setVisibility(View.VISIBLE);
             mAdapter = new TrackAdapter(getActivity(), mListNewTrackObjects, mTypefaceBold, mTypefaceLight, mImgTrackOptions, mAvatarOptions);
             mListView.setAdapter(mAdapter);
+
+            quickControlsFragment.initPlayerControls(mListNewTrackObjects);
 
             //Click on list item(track) listener
             mAdapter.setTrackAdapterListener(new ITrackAdapterListener() {
@@ -733,8 +733,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
                     quickControlsFragment.onListenMusicDemo(mTrackObject);
                 }
             });
-        }
-        else {
+        } else {
             this.mTvNoResult.setVisibility(View.VISIBLE);
         }
     }
