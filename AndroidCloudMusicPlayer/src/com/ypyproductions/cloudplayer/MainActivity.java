@@ -1,6 +1,7 @@
 package com.ypyproductions.cloudplayer;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.ypyproductions.cloudplayer.fragments.HomeTabFragment;
 import com.ypyproductions.cloudplayer.fragments.MainFragment;
 import com.ypyproductions.cloudplayer.fragments.QuickControlsFragment;
 
@@ -108,9 +109,12 @@ public class MainActivity extends AppCompatActivity implements ICloudMusicPlayer
     private TrackObject mCurrentTrack;
     protected ProgressDialog progressDialog;
     public static final int BUFFER_SIZE = 1024;
+    private HomeTabFragment homeTabFragment;
+    private Fragment mainFragment;
+    private FragmentManager fragmentManager;
 
 
-    SlidingUpPanelLayout panelLayout;
+    private SlidingUpPanelLayout panelLayout;
 
 
 
@@ -124,10 +128,10 @@ public class MainActivity extends AppCompatActivity implements ICloudMusicPlayer
         setSupportActionBar(mToolbar);
         mToolbar.setLogo(R.drawable.ic_launcher);
 
-        Fragment mainFragment = new MainFragment();
+        mainFragment = new MainFragment();
         
         mainFragment.setArguments(getIntent().getExtras());
-        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager = getSupportFragmentManager();
          android.support.v4.app.FragmentTransaction transaction = fragmentManager.beginTransaction()
         			.add(R.id.fragment, mainFragment);
         transaction.commit();
@@ -146,7 +150,6 @@ public class MainActivity extends AppCompatActivity implements ICloudMusicPlayer
        // panelLayout.setPanelHeight(120);
         setPanelSlideListeners();
         new initQuickControls().execute("");
-        
     }
     private void showDiaglogAboutUs() {
         AlertDialog mDialog = new AlertDialog.Builder(this).setTitle(R.string.title_about_us).setItems(R.array.list_share, new DialogInterface.OnClickListener() {
@@ -270,10 +273,8 @@ public class MainActivity extends AppCompatActivity implements ICloudMusicPlayer
             startGetData(false, mQuery);
         }
     }
-    private void startGetData(final boolean isRefresh, final String keyword) {
-        if (!ApplicationUtils.isOnline(this)) {
-
-            //mListView.onRefreshComplete();
+    public void startGetData(final boolean isRefresh, final String keyword) {
+        if (!ApplicationUtils.isOnline(getApplicationContext())) {
 
             if (isRefresh) {
                 showToast(R.string.info_lose_internet);
@@ -296,26 +297,24 @@ public class MainActivity extends AppCompatActivity implements ICloudMusicPlayer
 
             @Override
             public void onDoInBackground() {
-                if(GET_TRACK_FROM_PROFILE){
-                    mListNewTrackObjects = mSoundClound.getListTrackObjectsOfUser(USER_ID);
+                mListNewTrackObjects = mSoundClound.getListTrackObjectsByQuery(keyword, 0, 80);
+                if (mListNewTrackObjects != null && mListNewTrackObjects.size() > 0) {
+                    SettingManager.setLastKeyword(getApplicationContext(), keyword);
                 }
-                else{
-                    mListNewTrackObjects = mSoundClound.getListTrackObjectsByQuery(keyword, 0, 80);
-                    if (mListNewTrackObjects != null && mListNewTrackObjects.size() > 0) {
-                        SettingManager.setLastKeyword(MainActivity.this, keyword);
-                    }
-                }
-
             }
 
             @Override
             public void onPostExcute() {
                 dimissProgressDialog();
 
-                //mListView.onRefreshComplete();
+                mainFragment = new MainFragment();
+                fragmentManager = getSupportFragmentManager();
+                mainFragment.setArguments(getIntent().getExtras());
+                android.support.v4.app.FragmentTransaction transaction = fragmentManager.beginTransaction()
+                        .replace(R.id.fragment, mainFragment);
+                transaction.commit();
 
                 hiddenVirtualKeyBoard();
-                setUpInfo(mListNewTrackObjects);
             }
 
         });
@@ -352,42 +351,7 @@ public class MainActivity extends AppCompatActivity implements ICloudMusicPlayer
             ApplicationUtils.hiddenVirtualKeyboard(this, searchView);
         }
     }
-    private void setUpInfo(ArrayList<TrackObject> mListNewTrackObjects) {
 
-       // mListView.setAdapter(null);
-
-        if (mListTrackObjects != null) {
-            mListTrackObjects.clear();
-            mListTrackObjects = null;
-        }
-        this.mListTrackObjects = mListNewTrackObjects;
-        if (mListNewTrackObjects != null && mListNewTrackObjects.size() > 0) {
-            this.mTvNoResult.setVisibility(View.GONE);
-            this.mListView.setVisibility(View.VISIBLE);
-            mAdapter = new TrackAdapter(this, mListNewTrackObjects, mTypefaceBold, mTypefaceLight, mImgTrackOptions, mAvatarOptions);
-
-            //mListView.setAdapter(mAdapter);
-
-            mAdapter.setTrackAdapterListener(new TrackAdapter.ITrackAdapterListener() {
-                @Override
-                public void onDownload(TrackObject mTrackObject) {
-                    showAlertDownload(mTrackObject);
-                }
-
-                @Override
-                public void onListenDemo(TrackObject mTrackObject) {
-                    if (!ApplicationUtils.isOnline(MainActivity.this)) {
-                        showToast(R.string.info_server_error);
-                        return;
-                    }
-                   // onListenMusicDemo(mTrackObject);
-                }
-            });
-        }
-        else {
-            this.mTvNoResult.setVisibility(View.VISIBLE);
-        }
-    }
     private void showAlertDownload(final TrackObject mTrackObject) {
         showFullDialog(R.string.title_confirm, R.string.info_download, R.string.title_ok, R.string.title_cancel, new IDBCallback() {
 

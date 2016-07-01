@@ -68,6 +68,14 @@ public class TrackObject {
 		this.commentCount = commentCount;
 	}
 
+	public TrackObject(long id, long duration, String title, String description ) {
+		super();
+		this.id = id;
+		this.duration = duration;
+		this.title = title;
+		this.description = description;
+	}
+
 	public TrackObject() {
 		super();
 	}

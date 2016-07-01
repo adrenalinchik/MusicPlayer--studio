@@ -3,11 +3,11 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <target>android-21</target>
+        <target>android-23</target>
       </config>
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/activity_main.xml">
+      <layout url="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/library_tab_fragment.xml">
         <config>
           <theme>@style/AppThemeLight</theme>
         </config>
@@ -18,92 +18,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7f2bad-9f52-46cf-8058-2917f2e92da7" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer\build\intermediates\classes\debug\com\ypyproductions\cloudplayer\fragments\QuickControlsFragment$setBlurredAlbumArt.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/outputs/apk/AndroidCloudMusicPlayer-debug-unaligned.apk" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/outputs/apk/AndroidCloudMusicPlayer-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/outputs/apk/AndroidCloudMusicPlayer-debug.apk" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/outputs/apk/AndroidCloudMusicPlayer-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$17.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$18.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$19$1.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$19$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$19.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$20.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$21$1.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$21$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$21$2.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$21$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$21.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/HomeTabFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$1.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$10.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$11$1.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$11$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$11$2.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$11$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$11.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$12.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$2.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$3.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$4.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$5.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$6.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$7.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$8$1.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$8$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$8.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$9.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$initQuickControls.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity$initQuickControls.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$1$1.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$1.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$10.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$11.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$2.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$3.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$4.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$5.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$6.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$7.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$8.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$9.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$id.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$id.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$integer.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$layout.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$menu.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$string.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$style.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$styleable.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$xml.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/ShowUrlActivity.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/ShowUrlActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/SplashActivity.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/SplashActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/adapter/TrackAdapter.class" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/classes/debug/com/ypyproductions/cloudplayer/adapter/TrackAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/multi-dex/debug/componentClasses.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/HomeTabFragment.java" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/HomeTabFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/MainActivity.java" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.java" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/com/handmark/pulltorefresh/library/R.java" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/com/handmark/pulltorefresh/library/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/com/ypyproductions/cloudplayer/R.java" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/generated/source/r/debug/com/ypyproductions/cloudplayer/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/bottom_nowplaying_card.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/bottom_nowplaying_card.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/bottom_nowplaying_card.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/bottom_nowplaying_card.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/fragment_playback_controls.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/fragment_playback_controls.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_playback_controls.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_playback_controls.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/item_track.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/item_track.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/item_track.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/item_track.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/layout_show_url.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/res/merged/debug/layout/layout_show_url.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/layout_show_url.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/layout_show_url.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/AndroidCloudMusicPlayer/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0fe8d78e-bd2f-4c8e-8479-3a6732a8de3a" name="Default" comment="" />
     <ignored path="Android Player - studio.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,118 +45,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9310346">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-              <folding>
-                <element signature="e#703#721#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickControlsFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39896372">
-              <caret line="557" column="28" selection-start-line="557" selection-start-column="16" selection-end-line="557" selection-end-column="28" />
-              <folding>
-                <element signature="e#4734#5592#0" expanded="true" />
-                <element signature="e#5423#5568#0" expanded="true" />
-                <element signature="e#5567#5568#0" expanded="true" />
-                <element signature="e#5591#5592#0" expanded="true" />
-                <element signature="e#5661#5662#0" expanded="true" />
-                <element signature="e#5711#5712#0" expanded="true" />
-                <element signature="e#9486#9631#0" expanded="true" />
-                <element signature="e#9630#9631#0" expanded="true" />
-                <element signature="e#9670#10006#0" expanded="true" />
-                <element signature="e#10005#10006#0" expanded="true" />
-                <element signature="e#10045#10190#0" expanded="true" />
-                <element signature="e#10189#10190#0" expanded="true" />
-                <element signature="e#10876#11042#0" expanded="true" />
-                <element signature="e#11041#11042#0" expanded="true" />
-                <element signature="e#11210#11601#0" expanded="true" />
-                <element signature="e#11600#11601#0" expanded="true" />
-                <element signature="e#11644#11846#0" expanded="true" />
-                <element signature="e#11845#11846#0" expanded="true" />
-                <element signature="e#11884#12203#0" expanded="true" />
-                <element signature="e#12043#12067#0" expanded="true" />
-                <element signature="e#12202#12203#0" expanded="true" />
-                <element signature="e#15645#15799#0" expanded="true" />
-                <element signature="e#15798#15799#0" expanded="true" />
-                <element signature="e#16407#16408#0" expanded="true" />
-                <element signature="e#16464#16465#0" expanded="true" />
-                <element signature="e#16539#16540#0" expanded="true" />
-                <element signature="e#16604#16605#0" expanded="true" />
-                <element signature="e#18553#18585#0" expanded="true" />
-                <element signature="e#19751#20367#0" expanded="true" />
-                <element signature="e#20366#20367#0" expanded="true" />
-                <element signature="e#20410#20612#0" expanded="true" />
-                <element signature="e#20611#20612#0" expanded="true" />
-                <element signature="e#20650#20969#0" expanded="true" />
-                <element signature="e#20809#20833#0" expanded="true" />
-                <element signature="e#20968#20969#0" expanded="true" />
-                <element signature="e#21571#21572#0" expanded="true" />
-                <element signature="e#21614#21615#0" expanded="true" />
-                <element signature="e#21912#22988#0" expanded="true" />
-                <element signature="e#22987#22988#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrackObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/TrackObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.310345">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/UserObject.java">
+      <file leaf-file-name="LibraryTabFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/LibraryTabFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.724138">
-              <caret line="145" column="9" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
+              <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#11046#11073#0" expanded="true" />
-                <element signature="e#12438#12439#0" expanded="true" />
-                <element signature="e#12481#12482#0" expanded="true" />
-                <element signature="e#14405#14431#0" expanded="true" />
-                <element signature="e#14768#14790#0" expanded="true" />
-                <element signature="e#14792#14814#0" expanded="true" />
-                <element signature="e#14816#14833#0" expanded="true" />
-                <element signature="e#14835#14856#0" expanded="true" />
-                <element signature="e#14858#15238#0" expanded="true" />
-                <element signature="e#15019#15206#0" expanded="true" />
-                <element signature="e#15205#15206#0" expanded="true" />
-                <element signature="e#15237#15238#0" expanded="true" />
-                <element signature="e#18869#18897#0" expanded="true" />
-                <element signature="e#19296#19319#0" expanded="true" />
-                <element signature="e#19467#19823#0" expanded="true" />
-                <element signature="e#19822#19823#0" expanded="true" />
-                <element signature="e#21886#22242#0" expanded="true" />
-                <element signature="e#22241#22242#0" expanded="true" />
-                <element signature="e#23364#23405#0" expanded="true" />
-                <element signature="e#23527#23555#0" expanded="true" />
+                <element signature="e#1223#1402#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#2296#2625#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -250,71 +64,78 @@
       <file leaf-file-name="HomeTabFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/HomeTabFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.344828">
-              <caret line="686" column="77" selection-start-line="686" selection-start-column="77" selection-end-line="686" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="678" column="0" selection-start-line="678" selection-start-column="0" selection-end-line="678" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickControlsFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7565321">
+              <caret line="288" column="5" selection-start-line="288" selection-start-column="5" selection-end-line="288" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#8950#9213#0" expanded="true" />
-                <element signature="e#9212#9213#0" expanded="true" />
-                <element signature="e#11542#11879#0" expanded="true" />
-                <element signature="e#11878#11879#0" expanded="true" />
-                <element signature="e#12007#12169#0" expanded="true" />
-                <element signature="e#12168#12169#0" expanded="true" />
-                <element signature="e#13143#13283#0" expanded="true" />
-                <element signature="e#13282#13283#0" expanded="true" />
-                <element signature="e#13322#13653#0" expanded="true" />
-                <element signature="e#13652#13653#0" expanded="true" />
-                <element signature="e#13692#13832#0" expanded="true" />
-                <element signature="e#13831#13832#0" expanded="true" />
-                <element signature="e#13872#14643#0" expanded="true" />
-                <element signature="e#14642#14643#0" expanded="true" />
-                <element signature="e#14683#14991#0" expanded="true" />
-                <element signature="e#14930#14946#0" expanded="true" />
-                <element signature="e#14990#14991#0" expanded="true" />
-                <element signature="e#17302#17457#0" expanded="true" />
-                <element signature="e#17456#17457#0" expanded="true" />
-                <element signature="e#17952#17953#0" expanded="true" />
-                <element signature="e#17995#17996#0" expanded="true" />
-                <element signature="e#20122#20717#0" expanded="true" />
-                <element signature="e#20716#20717#0" expanded="true" />
-                <element signature="e#20760#21037#0" expanded="true" />
-                <element signature="e#21036#21037#0" expanded="true" />
-                <element signature="e#21075#21383#0" expanded="true" />
-                <element signature="e#21222#21246#0" expanded="true" />
-                <element signature="e#21382#21383#0" expanded="true" />
-                <element signature="e#23183#24200#0" expanded="true" />
-                <element signature="e#24199#24200#0" expanded="true" />
-                <element signature="e#27430#27456#0" expanded="true" />
-                <element signature="e#28114#28301#0" expanded="true" />
-                <element signature="e#28300#28301#0" expanded="true" />
+                <element signature="e#15747#15901#0" expanded="true" />
+                <element signature="e#15900#15901#0" expanded="true" />
+                <element signature="e#19853#20469#0" expanded="true" />
+                <element signature="e#20468#20469#0" expanded="true" />
+                <element signature="e#20512#20714#0" expanded="true" />
+                <element signature="e#20713#20714#0" expanded="true" />
+                <element signature="e#22014#23090#0" expanded="true" />
+                <element signature="e#23089#23090#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bottom_nowplaying_card.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/bottom_nowplaying_card.xml">
+      <file leaf-file-name="TrackObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/TrackObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.293103">
-              <caret line="69" column="41" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="41" />
+            <state vertical-scroll-proportion="-10.074074">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_playback_controls.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_playback_controls.xml">
+      <file leaf-file-name="library_tab_fragment.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/library_tab_fragment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.413794">
-              <caret line="132" column="50" selection-start-line="129" selection-start-column="20" selection-end-line="136" selection-end-column="51" />
+            <state vertical-scroll-proportion="-12.896552">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genres_tab_fragment.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/genres_tab_fragment.xml">
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.793103">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone_music_song.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/phone_music_song.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.137931">
+              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -323,17 +144,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\taras.fihurnyak\.android\signature.jks" />
-    <option name="KEY_ALIAS" value="IT" />
-    <option name="REMEMBER_PASSWORDS" value="true" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -3278,33 +3092,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/sliding_up_controls_panel.xml" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/SlipeuppanelFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/MainFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/SlideUpPanelFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/build.gradle" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/setting/materialiconlib/MaterialDrawableBuilder.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/item_listen_music.xml" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/SingltonTrackObjectArray.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/SingletonTrackObjectArray.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/slidinguppanel/SlidingUpPanelLayout.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/item_track.xml" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/layout_show_url.xml" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/home_tab_fragment.xml" />
         <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/HomeTabFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_playback_controls.xml" />
-        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/bottom_nowplaying_card.xml" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/ShowUrlActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/MainActivity.java" />
         <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.java" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_playback_controls.xml" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/SongObjectLibrary.java" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/phone_music_song.xml" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/library_tab_fragment.xml" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/TrackObject.java" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/adapter/PhoneSongAdapter.java" />
+        <option value="$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/LibraryTabFragment.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -3316,14 +3117,14 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -3339,21 +3140,11 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Android Player - studio" />
@@ -3382,10 +3173,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3418,6 +3205,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3548,84 +3339,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android Player - studio" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidCloudMusicPlayer" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ypyproductions" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudplayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AndroidCloudMusicPlayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Android Player - studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="gradle.experimental" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
-    <property name="android.project.structure.last.selected" value="Project" />
-    <property name="android.project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="ExportApk.ApkPath" value="E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer" />
-    <property name="ExportApk.Flavors" value="" />
-    <property name="ExportApk.BuildType" value="release" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer\res\values-v14" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer\src\com\ypyproductions\cloudplayer\setting\materialiconlib" />
-      <recent name="E:\AndoidProjects\Android Player - studio\AndroidCloudMusicPlayer\assets\fonts" />
-    </key>
   </component>
   <component name="RunManager" selected="Android Application.AndroidCloudMusicPlayer">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -3682,31 +3452,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -3817,91 +3562,48 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b7f2bad-9f52-46cf-8058-2917f2e92da7" name="Default" comment="" />
-      <created>1465462161922</created>
+      <changelist id="0fe8d78e-bd2f-4c8e-8479-3a6732a8de3a" name="Default" comment="" />
+      <created>1466671940812</created>
       <option name="number" value="Default" />
-      <updated>1465462161922</updated>
+      <updated>1466671940812</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-67" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-67" width="1936" height="1056" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0778643" sideWeight="0.4936034" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5063966" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2224694" sideWeight="0.47228146" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="-1828" y="33" width="1736" height="856" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="-1828" y="33" width="1736" height="856" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27030033" sideWeight="0.4936034" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5063966" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2224694" sideWeight="0.47228146" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -3915,145 +3617,131 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/AndroidCloudMusicPlayer/libs/ypylibs.jar!/com/ypyproductions/utils/StringUtils.class</url>
+          <line>7</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/DBFragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/SoundCloundJsonParsingUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.14775726">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/SplashActivity.java">
+    <entry file="jar://$PROJECT_DIR$/AndroidCloudMusicPlayer/libs/ypylibs.jar!/com/ypyproductions/utils/ApplicationUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="98" selection-start-line="76" selection-start-column="82" selection-end-line="76" selection-end-column="98" />
+        <state vertical-scroll-proportion="7.5555553">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/setting/SquareImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/setting/PlayPauseDrawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="153" column="27" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/xml/searchable.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/adapter/TabViewPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.098265894">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/ShowUrlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8106936">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/AndroidCloudMusicPlayer/libs/ypylibs.jar!/com/ypyproductions/utils/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10225564">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#127#149#0" expanded="false" />
-            <element signature="e#207#225#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/splash.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/home_tab_fragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/proguard-project.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.102564104">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.068966">
-          <caret line="24" column="54" selection-start-line="15" selection-start-column="7" selection-end-line="24" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.navigation/AndroidCloudMusicPlayer/raw/main.nvg.xml">
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="navigationeditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8686131">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.740741">
-          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-39.827587">
+          <caret line="284" column="19" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#6057#6080#0" expanded="false" />
+            <element signature="e#6638#6671#0" expanded="false" />
+            <element signature="e#6982#7016#0" expanded="false" />
+            <element signature="e#7325#7358#0" expanded="false" />
+            <element signature="e#7681#7713#0" expanded="false" />
+            <element signature="e#8390#8437#0" expanded="false" />
+            <element signature="e#11182#11209#0" expanded="false" />
+            <element signature="e#12662#12663#0" expanded="false" />
+            <element signature="e#12705#12706#0" expanded="false" />
+            <element signature="e#13019#13051#0" expanded="false" />
+            <element signature="e#13598#13620#0" expanded="false" />
+            <element signature="e#13622#13644#0" expanded="false" />
+            <element signature="e#13646#13663#0" expanded="false" />
+            <element signature="e#13665#13686#0" expanded="false" />
+            <element signature="e#17699#17727#0" expanded="false" />
+            <element signature="e#18126#18149#0" expanded="false" />
+            <element signature="e#22194#22235#0" expanded="false" />
+            <element signature="e#22357#22385#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.093065694">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18613139">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3010949">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/PlaylistTabFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5185184">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/assets/fonts/materialdesignicons-webfont.ttf">
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -4061,26 +3749,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/dataMng/XMLParsingData.java">
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/adapter/SuggestionAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8921739">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.26794258">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/setting/PlayPauseButton.java">
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/adapter/TrackAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.101341285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state vertical-scroll-proportion="-4.005981">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/GenresTabFragment.java">
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/bottom_nowplaying_card.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state vertical-scroll-proportion="-13.137931">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63432837">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_playback_controls.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51626897">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/item_listen_music.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3275489">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/phone_music_song.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.137931">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/genres_tab_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.793103">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/library_tab_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.896552">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/slidinguppanel/SlidingUpPanelLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38002297">
+          <caret line="783" column="0" selection-start-line="783" selection-start-column="0" selection-end-line="783" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/adapter/PhoneSongAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17566016">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/TrackObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.074074">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/playlist_tab_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16152018">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -4088,288 +3877,38 @@
     <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/LibraryTabFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/setting/SettingManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.078947365">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/item_listen_music.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5172415">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/home_tab_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.310345">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/SingletonTrackObjectArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/item_track.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5285481">
-          <caret line="145" column="36" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/ShowUrlActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9196989">
-          <caret line="83" column="60" selection-start-line="83" selection-start-column="60" selection-end-line="83" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/layout_show_url.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53125">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/values-v14/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6197917">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/UserObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/adapter/TrackAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4827585">
-          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding>
-            <element signature="e#6102#6264#0" expanded="false" />
-            <element signature="e#6263#6264#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/CommentObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4857143">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/slidinguppanel/SlidingUpPanelLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3792633">
-          <caret line="441" column="24" selection-start-line="441" selection-start-column="24" selection-end-line="441" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8385#8386#0" expanded="true" />
-            <element signature="e#8424#8425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/soundclound/object/TrackObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.310345">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.724138">
-          <caret line="145" column="9" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11046#11073#0" expanded="true" />
-            <element signature="e#12438#12439#0" expanded="true" />
-            <element signature="e#12481#12482#0" expanded="true" />
-            <element signature="e#14405#14431#0" expanded="true" />
-            <element signature="e#14768#14790#0" expanded="true" />
-            <element signature="e#14792#14814#0" expanded="true" />
-            <element signature="e#14816#14833#0" expanded="true" />
-            <element signature="e#14835#14856#0" expanded="true" />
-            <element signature="e#14858#15238#0" expanded="true" />
-            <element signature="e#15019#15206#0" expanded="true" />
-            <element signature="e#15205#15206#0" expanded="true" />
-            <element signature="e#15237#15238#0" expanded="true" />
-            <element signature="e#18869#18897#0" expanded="true" />
-            <element signature="e#19296#19319#0" expanded="true" />
-            <element signature="e#19467#19823#0" expanded="true" />
-            <element signature="e#19822#19823#0" expanded="true" />
-            <element signature="e#21886#22242#0" expanded="true" />
-            <element signature="e#22241#22242#0" expanded="true" />
-            <element signature="e#23364#23405#0" expanded="true" />
-            <element signature="e#23527#23555#0" expanded="true" />
+            <element signature="e#1223#1402#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#2296#2625#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/HomeTabFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.344828">
-          <caret line="686" column="77" selection-start-line="686" selection-start-column="77" selection-end-line="686" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8950#9213#0" expanded="true" />
-            <element signature="e#9212#9213#0" expanded="true" />
-            <element signature="e#11542#11879#0" expanded="true" />
-            <element signature="e#11878#11879#0" expanded="true" />
-            <element signature="e#12007#12169#0" expanded="true" />
-            <element signature="e#12168#12169#0" expanded="true" />
-            <element signature="e#13143#13283#0" expanded="true" />
-            <element signature="e#13282#13283#0" expanded="true" />
-            <element signature="e#13322#13653#0" expanded="true" />
-            <element signature="e#13652#13653#0" expanded="true" />
-            <element signature="e#13692#13832#0" expanded="true" />
-            <element signature="e#13831#13832#0" expanded="true" />
-            <element signature="e#13872#14643#0" expanded="true" />
-            <element signature="e#14642#14643#0" expanded="true" />
-            <element signature="e#14683#14991#0" expanded="true" />
-            <element signature="e#14930#14946#0" expanded="true" />
-            <element signature="e#14990#14991#0" expanded="true" />
-            <element signature="e#17302#17457#0" expanded="true" />
-            <element signature="e#17456#17457#0" expanded="true" />
-            <element signature="e#17952#17953#0" expanded="true" />
-            <element signature="e#17995#17996#0" expanded="true" />
-            <element signature="e#20122#20717#0" expanded="true" />
-            <element signature="e#20716#20717#0" expanded="true" />
-            <element signature="e#20760#21037#0" expanded="true" />
-            <element signature="e#21036#21037#0" expanded="true" />
-            <element signature="e#21075#21383#0" expanded="true" />
-            <element signature="e#21222#21246#0" expanded="true" />
-            <element signature="e#21382#21383#0" expanded="true" />
-            <element signature="e#23183#24200#0" expanded="true" />
-            <element signature="e#24199#24200#0" expanded="true" />
-            <element signature="e#27430#27456#0" expanded="true" />
-            <element signature="e#28114#28301#0" expanded="true" />
-            <element signature="e#28300#28301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9310346">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding>
-            <element signature="e#703#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/fragment_playback_controls.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.413794">
-          <caret line="132" column="50" selection-start-line="129" selection-start-column="20" selection-end-line="136" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="678" column="0" selection-start-line="678" selection-start-column="0" selection-end-line="678" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/res/layout/bottom_nowplaying_card.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.293103">
-          <caret line="69" column="41" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCloudMusicPlayer/src/com/ypyproductions/cloudplayer/fragments/QuickControlsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39896372">
-          <caret line="557" column="28" selection-start-line="557" selection-start-column="16" selection-end-line="557" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.7565321">
+          <caret line="288" column="5" selection-start-line="288" selection-start-column="5" selection-end-line="288" selection-end-column="5" />
           <folding>
-            <element signature="e#4734#5592#0" expanded="true" />
-            <element signature="e#5423#5568#0" expanded="true" />
-            <element signature="e#5567#5568#0" expanded="true" />
-            <element signature="e#5591#5592#0" expanded="true" />
-            <element signature="e#5661#5662#0" expanded="true" />
-            <element signature="e#5711#5712#0" expanded="true" />
-            <element signature="e#9486#9631#0" expanded="true" />
-            <element signature="e#9630#9631#0" expanded="true" />
-            <element signature="e#9670#10006#0" expanded="true" />
-            <element signature="e#10005#10006#0" expanded="true" />
-            <element signature="e#10045#10190#0" expanded="true" />
-            <element signature="e#10189#10190#0" expanded="true" />
-            <element signature="e#10876#11042#0" expanded="true" />
-            <element signature="e#11041#11042#0" expanded="true" />
-            <element signature="e#11210#11601#0" expanded="true" />
-            <element signature="e#11600#11601#0" expanded="true" />
-            <element signature="e#11644#11846#0" expanded="true" />
-            <element signature="e#11845#11846#0" expanded="true" />
-            <element signature="e#11884#12203#0" expanded="true" />
-            <element signature="e#12043#12067#0" expanded="true" />
-            <element signature="e#12202#12203#0" expanded="true" />
-            <element signature="e#15645#15799#0" expanded="true" />
-            <element signature="e#15798#15799#0" expanded="true" />
-            <element signature="e#16407#16408#0" expanded="true" />
-            <element signature="e#16464#16465#0" expanded="true" />
-            <element signature="e#16539#16540#0" expanded="true" />
-            <element signature="e#16604#16605#0" expanded="true" />
-            <element signature="e#18553#18585#0" expanded="true" />
-            <element signature="e#19751#20367#0" expanded="true" />
-            <element signature="e#20366#20367#0" expanded="true" />
-            <element signature="e#20410#20612#0" expanded="true" />
-            <element signature="e#20611#20612#0" expanded="true" />
-            <element signature="e#20650#20969#0" expanded="true" />
-            <element signature="e#20809#20833#0" expanded="true" />
-            <element signature="e#20968#20969#0" expanded="true" />
-            <element signature="e#21571#21572#0" expanded="true" />
-            <element signature="e#21614#21615#0" expanded="true" />
-            <element signature="e#21912#22988#0" expanded="true" />
-            <element signature="e#22987#22988#0" expanded="true" />
+            <element signature="e#15747#15901#0" expanded="true" />
+            <element signature="e#15900#15901#0" expanded="true" />
+            <element signature="e#19853#20469#0" expanded="true" />
+            <element signature="e#20468#20469#0" expanded="true" />
+            <element signature="e#20512#20714#0" expanded="true" />
+            <element signature="e#20713#20714#0" expanded="true" />
+            <element signature="e#22014#23090#0" expanded="true" />
+            <element signature="e#23089#23090#0" expanded="true" />
           </folding>
         </state>
       </provider>

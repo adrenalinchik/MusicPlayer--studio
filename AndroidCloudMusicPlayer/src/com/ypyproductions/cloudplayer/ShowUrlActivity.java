@@ -5,6 +5,7 @@ import com.ypyproductions.cloudplayer.constants.ICloudMusicPlayerConstants;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
@@ -50,8 +51,8 @@ public class ShowUrlActivity extends DBFragmentActivity implements ICloudMusicPl
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		getActionBar().setDisplayHomeAsUpEnabled(true);
-		getActionBar().setHomeButtonEnabled(true);
+		//getActionBar().setDisplayHomeAsUpEnabled(true);
+		//getActionBar().setHomeButtonEnabled(true);
 
 		this.setContentView(R.layout.layout_show_url);
 

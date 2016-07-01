@@ -160,12 +160,12 @@
         "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\layout\\item_suggestion.xml",
         "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\res\\layout\\item_suggestion.xml"
+    },
+    {
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
@@ -250,6 +250,10 @@
     {
         "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\layout\\phone_music_song.xml",
+        "source": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\res\\layout\\phone_music_song.xml"
     },
     {
         "merged": "E:\\AndoidProjects\\Android Player - studio\\AndroidCloudMusicPlayer\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",

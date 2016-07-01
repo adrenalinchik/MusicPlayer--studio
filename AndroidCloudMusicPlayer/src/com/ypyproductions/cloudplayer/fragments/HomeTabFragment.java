@@ -114,7 +114,7 @@ import com.ypyproductions.utils.StringUtils;
 import com.ypyproductions.webservice.DownloadUtils;
 
 
-public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener, ICloudMusicPlayerConstants, IDBConstantURL, IDBFragmentConstants, ISoundCloundConstants {
+public class HomeTabFragment extends Fragment implements ICloudMusicPlayerConstants, IDBConstantURL, IDBFragmentConstants, ISoundCloundConstants {
 
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private TextView mCatTextView;
@@ -236,7 +236,6 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
         this.mAvatarOptions = new DisplayImageOptions.Builder().showImageOnLoading(R.drawable.ic_account_circle_grey).resetViewBeforeLoading(false).cacheInMemory(true)
                 .cacheOnDisk(true).considerExifParams(true).build();
 
-        handleIntent(getActivity().getIntent());
         mInterstitial = new InterstitialAd(getContext().getApplicationContext());
         mInterstitial.setAdUnitId(ADMOB_ID_INTERTESTIAL);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -266,19 +265,6 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
 
     }
 
-    @Override
-    public void onRefresh() {
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                mSwipeRefreshLayout.setRefreshing(false);
-                Random rand = new Random();
-                mCatTextView.setText("Котика пора кормить. Его не кормили уже "
-                        + (1 + rand.nextInt(10)) + " мин.");
-            }
-        }, 4000);
-    }
     private void setUpPlayMusicLayout() {
 
         mLayoutPlayMusic.findViewById(R.id.img_bg).setOnTouchListener(new OnTouchListener() {
@@ -639,7 +625,7 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
             }
         }, 1000);
     }
-    private void startGetData(final boolean isRefresh, final String keyword) {
+    public void startGetData(final boolean isRefresh, final String keyword) {
         if (!ApplicationUtils.isOnline(getContext().getApplicationContext())) {
 
             mListView.onRefreshComplete();
@@ -899,17 +885,8 @@ public class HomeTabFragment extends Fragment implements SwipeRefreshLayout.OnRe
         });
         mDBTask.execute();
     }
-    private void handleIntent(Intent intent) {
-        if (intent != null && Intent.ACTION_SEARCH.equals(intent.getAction())) {
-            String query = intent.getStringExtra(SearchManager.QUERY);
-            processSearchData(query);
-        }
-    }
-    private void processSearchData(final String query) {
-        if (!StringUtils.isEmptyString(query)) {
-            final String mQuery = StringUtils.urlEncodeString(query);
-            startGetData(false, mQuery);
-        }
-    }
+
+
+
 }
 

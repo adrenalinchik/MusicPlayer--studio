@@ -385,6 +385,13 @@ public class QuickControlsFragment extends Fragment implements ICloudMusicPlayer
             }
         }
     }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        onMusicStop();
+    }
+
     public void onMusicStop() {
         mHandler.removeCallbacksAndMessages(null);
         try {
